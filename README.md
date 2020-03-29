@@ -8,5 +8,11 @@ This repo is intended for learning and trying to make a website from scratch and
 1. Make a list using javascript (can make a list "done", delete specified list, and clear all list)
 2. Coming soon
 
+## Contact Me
+* [Facebook](https://www.facebook.com/alfian.nahar)
+* [Instagram](https://www.instagram.com/alfianahar/)
+* [LinkedIn](https://www.linkedin.com/in/alfianahar/)
+* [E-Mail](mailto:alfian.aswinda@gmail.com)
+
 
 #### Thanks to [Zero to Mastery](https://zerotomastery.io/) - Web Developer Course
