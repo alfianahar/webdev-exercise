@@ -1,6 +1,4 @@
-# webdev-exercise
 Just an exercise focused on a web developer, especially on front-end developer (HTML, CSS, JAVASCRIPT)
-
 
 This repository is dedicated to do the exercise on Zero to Mastery Web Developer Course
 
