@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: cadetblue;
+}
+
+/***********************************************************************
+   HEADER
+ **********************************************************************/
+
+header {}
+
+hr {
+    border-width: 5px;
+    border-color: #ffffff;
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+h3 {
+    text-align: center;
+}
+
+ol.guide {
+    margin: 0px 0px 15px 0px;
+}
+
+
+/***********************************************************************
+   SECTION (SHOPPING LIST)
+ **********************************************************************/
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+input {
+    width: 40%;
+    padding: 10px 0px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    opacity: 0.5;
+}
+
+input:hover {
+    opacity: 1;
+}
+
+button#enter {
+    cursor: pointer;
+    width: 40%;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #36ca01;
+}
+
+button#enter:hover {
+    background-color: #43ff00;
+    color: aliceblue;
+}
+
+button#clrall {
+    cursor: pointer;
+    width: 15%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    input {
+        width: 80%;
+    }
+
+    button#enter {
+        width: 80%;
+    }
+
+    button#clrall {
+        width: 35%;
+    }
+}
+
+ul#list {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+.done {
+    text-decoration: line-through;
+}
+
+.delete {}
