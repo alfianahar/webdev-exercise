@@ -1,7 +1,6 @@
-body {
+html, body {
     margin: 0px;
     width: 100%;
-    height: 100%;
     font-family: sans-serif;
     background-color: cadetblue;
 }
@@ -22,7 +21,7 @@ hr {
 h1 {
     font-size: 3em;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
 }
 
 .container {
@@ -93,18 +92,24 @@ button#clrall {
     text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
-    input {
-        width: 80%;
-    }
+footer {
+    margin: 1rem;
+}
 
-    button#enter {
-        width: 80%;
-    }
+@media only screen
+    and (max-width: 700px)
+{
+        input {
+            width: 80%;
+        }
 
-    button#clrall {
-        width: 35%;
-    }
+        button#enter {
+            width: 80%;
+        }
+
+        button#clrall {
+            width: 35%;
+        }
 }
 
 ul#list {
