@@ -97,7 +97,7 @@ footer {
 }
 
 @media only screen
-    and (max-width: 700px)
+    and (max-width: 700px) /* responsive look */
 {
         input {
             width: 80%;
